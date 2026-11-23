@@ -67,14 +67,8 @@ export function Navbar({
           <a
             href="#hero"
             onClick={(e) => handleAnchorClick(e, 'hero')}
-            className="inline-flex min-h-[44px] items-center gap-2.5 rounded-full pr-2 text-left"
+            className="inline-flex min-h-[44px] items-center rounded-full px-2 text-left"
           >
-            <span
-              aria-hidden="true"
-              className="flex h-8.5 w-8.5 items-center justify-center rounded-full bg-[var(--maroon-solid)] text-[13px] font-bold tracking-[0.04em] text-[var(--text-on-maroon)] transition-transform duration-300 hover:scale-105"
-            >
-              {PROFILE_META.monogram}
-            </span>
             <span className="text-[15px] font-semibold tracking-[-0.02em] text-[var(--text-primary)]">
               {PROFILE_META.name}
             </span>

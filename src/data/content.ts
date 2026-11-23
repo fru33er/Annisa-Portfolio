@@ -111,7 +111,6 @@ export interface PortfolioContent {
 
 export const PROFILE_META = {
   name: 'Annisa Noviana',
-  monogram: 'AN',
   email: 'annisanv16@gmail.com',
   linkedinLabel: 'linkedin.com/in/annisa-nv',
   linkedinUrl: 'https://www.linkedin.com/in/annisa-nv',
