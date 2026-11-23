@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Annisa Noviana | Client Relations, CRM &amp; Business Operations</title>
+    <meta
+      name="description"
+      content="Portfolio Annisa Noviana: IPB Physics graduate specializing in Client Relations, CRM, Sales Operations, and Data-Backed Business Strategy."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var savedTheme = localStorage.getItem('annisa-theme');
+          if (savedTheme === 'light' || savedTheme === 'dark') {
+            document.documentElement.setAttribute('data-theme', savedTheme);
+          }
+          var savedLang = localStorage.getItem('annisa-lang');
+          if (savedLang === 'en' || savedLang === 'id') {
+            document.documentElement.setAttribute('lang', savedLang);
+          }
+          if (
+            window.matchMedia &&
+            window.matchMedia('(prefers-reduced-motion: no-preference)').matches
+          ) {
+            document.documentElement.classList.add('js-reveal-ready');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
